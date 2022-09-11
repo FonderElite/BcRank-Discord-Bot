@@ -11,10 +11,11 @@ $git clone https://github.com/FonderElite/BcRank-Discord-Bot/
 $pip3 install -r requirements.txt
 $python3 bcrank_bot.py
 ```
-
 ## Usage Examples
 <img src="https://i.ibb.co/JxXb4Hy/Screenshot-2022-09-11-20-09-55.png" width="350px">
 <img src="https://i.ibb.co/Sd37J3S/Screenshot-2022-09-11-20-13-08.png" width="350px">
 <img src="https://i.ibb.co/W046zZt/Screenshot-2022-09-11-20-15-37.png" width="350px">
 
-
+## Credits
+<img src="https://cdn.bcrank.us/226/img/bcrank-banner.png" width="500px">
+[BCRank](https://bcrank.us)
