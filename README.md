@@ -9,7 +9,7 @@
 ```hs
 $git clone https://github.com/FonderElite/BcRank-Discord-Bot/
 $pip3 install -r requirements.txt
-python3 bcrank_bot.py
+$python3 bcrank_bot.py
 ```
 
 ## Usage Examples
