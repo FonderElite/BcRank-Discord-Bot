@@ -16,6 +16,6 @@ $python3 bcrank_bot.py
 <img src="https://i.ibb.co/Sd37J3S/Screenshot-2022-09-11-20-13-08.png" width="350px">
 <img src="https://i.ibb.co/W046zZt/Screenshot-2022-09-11-20-15-37.png" width="350px">
 
-## Credits
-<img src="https://cdn.bcrank.us/226/img/bcrank-banner.png" width="500px">
-[BCRank](https://bcrank.us)
+# <img src="https://cdn.bcrank.us/226/img/bcrank.png"> Credits
+<a href="https://bcrank.us/"><img src="https://cdn.bcrank.us/226/img/bcrank-banner.png" width="500px"></a>
+
