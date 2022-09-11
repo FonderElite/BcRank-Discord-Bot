@@ -90,6 +90,10 @@ async def monster(ctx,monster_name):
         element_img = soup.find("img",class_="element")
         pr = soup.find("span",class_="power-rating").get_text()
         lvl = soup.find("span",class_="level").get_text()
+        new_lvl = []
+        if len(lvl) > 2:
+            substring = str(lvl)[0:5]
+            new_lvl.append(substring)
         atk = soup.find("span",class_="attack").get_text()
         hp = soup.find("span",class_="hp").get_text()
         rcv = soup.find("span",class_="recovery").get_text()
@@ -103,7 +107,7 @@ async def monster(ctx,monster_name):
         embed.add_field(name="Description",value=desc.capitalize(),inline=False)
         embed.add_field(name="Rarity",value=rarity.capitalize(),inline=True)
         embed.add_field(name="Power Level",value=pr,inline=True)
-        embed.add_field(name="Level",value=lvl,inline=True)
+        embed.add_field(name="Level",value=new_lvl[0],inline=True)
         embed.add_field(name="Attack",value=atk,inline=True)
         embed.add_field(name="Health",value=hp,inline=True)
         embed.add_field(name="Recovery",value=rcv,inline=True)
@@ -119,5 +123,4 @@ async def monster(ctx,monster_name):
         err_embed.set_image(url="https://games.lol/wp-content/uploads/2019/07/battle-camp-download-PC-free-1024x572.jpg")
         err_embed.set_footer(text="Bot Made By Droid#1366")
 
-if __name__ == "__main__":
-    bot.run("")
+bot.run("")
